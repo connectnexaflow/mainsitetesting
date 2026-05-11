@@ -706,9 +706,9 @@ h1 { margin-bottom: 20px; letter-spacing: -0.5px; }
    ════════════════════════════════════════════ */
 .fade-up {
   opacity: 0;
-  transform: translateY(32px);
-  transition: opacity 0.65s cubic-bezier(0.4, 0, 0.2, 1),
-              transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(20px);
+  transition: opacity 0.5s ease,
+              transform 0.5s ease;
 }
 .fade-up.visible {
   opacity: 1;
@@ -716,19 +716,18 @@ h1 { margin-bottom: 20px; letter-spacing: -0.5px; }
 }
 .fade-left {
   opacity: 0;
-  transform: translateX(-32px);
-  transition: opacity 0.65s cubic-bezier(0.4, 0, 0.2, 1),
-              transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(-16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
 .fade-left.visible {
   opacity: 1;
   transform: translateX(0);
 }
 .fade-right {
   opacity: 0;
-  transform: translateX(32px);
-  transition: opacity 0.65s cubic-bezier(0.4, 0, 0.2, 1),
-              transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 .fade-right.visible {
   opacity: 1;
